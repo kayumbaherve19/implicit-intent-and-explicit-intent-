@@ -1,0 +1,7 @@
+Implicit Intents do not specify exactly the android components which should be called rather it specifies actions to be performed while explicit intents are used in the application where an activity can be changed to another activity.
+
+Example of implicit intent:
+Intent intent = new Intent(ACTION_VIEW,Uri.parse("http://www.facebook.com"));
+
+Example of explicit intent:
+Intent intent = new Intent(this,Target.class);
